@@ -6,30 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diogo Pires - DoWhile 2021</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <div class="content">
+      <div class="container">
         <div class="avatar">
-          <img src="images/build.svg" alt="Selo Rocketseat" />
-          <img src="http://lorempixel.com/185/185/people/" alt="Foto pessoal" />
+          <span>
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img
+            id="userImage"
+            src="http://lorempixel.com/185/185/people/"
+            alt="Foto pessoal"
+          />
         </div>
-        <h1>Diogo Pires</h1>
-        <a href="https://github.com/diogopiresDev1">
-          <img src="images/github.svg" alt="ícone github" /> diogopiresDev1</a
+        <h1 id="userName">Mayk Brito</h1>
+        <a href="https://github.com/diogopiresDev1 " target="blank">
+          <img src="images/github.svg" alt="ícone github" />
+          <span id="userLink">maykbrito</span></a
         >
-        <p>An instructor focused on helping pople start programming for web</p>
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/channel/UCkfw5n2kW6s8MmVCd8TvVXw">
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a
+              href="https://www.youtube.com/channel/UCkfw5n2kW6s8MmVCd8TvVXw"
+              target="blank"
+            >
               <img src="images/youtube.svg" alt="ícone youtube" />
             </a>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/diogopires01" target="blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://www.facebook.com/diogopiresDev1" target="blank">
+              <img src="images/facebook.svg" alt="ícone facebook" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://www.twitter.com/diogopiresdev" target="blank">
+              <img src="images/twitter.svg" alt="ícone twitter" />
+            </a>
+          </li>
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
