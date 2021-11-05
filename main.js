@@ -1,5 +1,5 @@
 const LinksSocialMedia = {
-  github: 'diogopiresDev1',
+  github: 'diogopiresdev',
   youtube: 'channel/UCkfw5n2kW6s8MmVCd8TvVXw',
   facebook: 'diogopiresDev1',
   instagram: 'diogopires01',
